@@ -1,0 +1,41 @@
+body {
+
+  font-family: Arial, sans-serif;
+ 
+  text-align: center;
+ 
+ }
+ 
+ .products {
+ 
+  display: flex;
+ 
+  justify-content: center;
+ 
+  gap: 20px;
+ 
+ }
+ 
+ .product {
+ 
+  border: 1px solid #ddd;
+ 
+  padding: 10px;
+ 
+  width: 150px;
+ 
+  text-align: center; /* Ensures content inside the product box is centered */
+ 
+ }
+ 
+ .product img {
+ 
+  width: 100px;
+ 
+  height: 100px;
+ 
+  object-fit: cover; /* Prevents image distortion */
+ 
+ }
+ 
+ 
